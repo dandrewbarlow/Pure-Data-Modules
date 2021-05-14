@@ -1,0 +1,241 @@
+#N canvas 213 293 1920 1005 12;
+#X obj 629 232 outlet;
+#X obj 639 232 outlet;
+#X obj 649 232 outlet;
+#X obj 659 232 outlet;
+#X obj 669 232 outlet;
+#X obj 679 232 outlet;
+#X obj 689 232 outlet;
+#X obj 699 232 outlet;
+#X obj 710 232 outlet;
+#X obj 719 232 outlet;
+#X obj 729 232 outlet;
+#X obj 739 232 outlet;
+#X obj 307 136 cnv 15 193 110 empty empty Sequencer 2 99 0 14 #4a4c9e
+#eb7e49 0;
+#X obj 307 137 cnv 15 69 17 empty empty toggle 11 5 0 14 #4a4c9e #8789eb
+0;
+#X obj 445 136 cnv 15 53 16 empty empty tempo 12 6 0 14 #4a4c9e #8789eb
+0;
+#X obj 391 137 cnv 15 43 15 empty empty steps 0 5 0 14 #4a4c9e #8789eb
+0;
+#N canvas 359 369 1611 1067 steps 0;
+#X obj 40 117 bng 15 250 50 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb;
+#X obj 56 117 bng 15 250 50 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb;
+#X obj 72 117 bng 15 250 50 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb;
+#X obj 88 117 bng 15 250 50 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb;
+#X obj 104 117 bng 15 250 50 0 empty empty empty 17 7 0 10 #4a4c9e
+#eb7e49 #8789eb;
+#X obj 120 117 bng 15 250 50 0 empty empty empty 17 7 0 10 #4a4c9e
+#eb7e49 #8789eb;
+#X obj 136 117 bng 15 250 50 0 empty empty empty 17 7 0 10 #4a4c9e
+#eb7e49 #8789eb;
+#X obj 152 117 bng 15 250 50 0 empty empty empty 17 7 0 10 #4a4c9e
+#eb7e49 #8789eb;
+#X obj 168 117 bng 15 250 50 0 empty empty empty 17 7 0 10 #4a4c9e
+#eb7e49 #8789eb;
+#X obj 184 117 bng 15 250 50 0 empty empty empty 17 7 0 10 #4a4c9e
+#eb7e49 #8789eb;
+#X obj 200 117 bng 15 250 50 0 empty empty empty 17 7 0 10 #4a4c9e
+#eb7e49 #8789eb;
+#X obj 216 117 bng 15 250 50 0 empty empty empty 17 7 0 10 #4a4c9e
+#eb7e49 #8789eb;
+#X obj 41 80 sel 0 1 2 3 4 5 6 7 8 9 10 11;
+#X obj 13 26 inlet;
+#X obj 11 291 outlet;
+#X obj 67 291 outlet;
+#X obj 123 291 outlet;
+#X obj 179 291 outlet;
+#X obj 235 291 outlet;
+#X obj 291 291 outlet;
+#X obj 347 291 outlet;
+#X obj 403 291 outlet;
+#X obj 459 291 outlet;
+#X obj 515 291 outlet;
+#X obj 571 291 outlet;
+#X obj 627 291 outlet;
+#X obj 40 133 tgl 15 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb 1 1;
+#X obj 56 133 tgl 15 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb 1 1;
+#X obj 72 133 tgl 15 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb 1 1;
+#X obj 88 133 tgl 15 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb 1 1;
+#X obj 104 133 tgl 15 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb 1 1;
+#X obj 120 133 tgl 15 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb 1 1;
+#X obj 136 133 tgl 15 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb 1 1;
+#X obj 152 133 tgl 15 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb 1 1;
+#X obj 168 133 tgl 15 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb 1 1;
+#X obj 184 133 tgl 15 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb 1 1;
+#X obj 200 133 tgl 15 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb 1 1;
+#X obj 216 133 tgl 15 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb 1 1;
+#X obj 39 257 spigot;
+#X obj 86 257 spigot;
+#X obj 133 257 spigot;
+#X obj 180 257 spigot;
+#X obj 227 257 spigot;
+#X obj 274 257 spigot;
+#X obj 39 257 spigot;
+#X obj 86 257 spigot;
+#X obj 133 257 spigot;
+#X obj 180 257 spigot;
+#X obj 227 257 spigot;
+#X obj 274 257 spigot;
+#X obj 321 257 spigot;
+#X obj 368 257 spigot;
+#X obj 415 257 spigot;
+#X obj 462 257 spigot;
+#X obj 509 257 spigot;
+#X obj 556 257 spigot;
+#X obj 319 63 loadbang;
+#X connect 0 0 38 0;
+#X connect 1 0 45 0;
+#X connect 2 0 46 0;
+#X connect 3 0 47 0;
+#X connect 4 0 48 0;
+#X connect 5 0 49 0;
+#X connect 6 0 50 0;
+#X connect 7 0 51 0;
+#X connect 8 0 52 0;
+#X connect 9 0 53 0;
+#X connect 10 0 54 0;
+#X connect 11 0 55 0;
+#X connect 12 0 0 0;
+#X connect 12 1 1 0;
+#X connect 12 2 2 0;
+#X connect 12 3 3 0;
+#X connect 12 4 4 0;
+#X connect 12 5 5 0;
+#X connect 12 6 6 0;
+#X connect 12 7 7 0;
+#X connect 12 8 8 0;
+#X connect 12 9 9 0;
+#X connect 12 10 10 0;
+#X connect 12 11 11 0;
+#X connect 13 0 12 0;
+#X connect 26 0 38 1;
+#X connect 27 0 45 1;
+#X connect 28 0 46 1;
+#X connect 29 0 47 1;
+#X connect 30 0 48 1;
+#X connect 31 0 49 1;
+#X connect 32 0 50 1;
+#X connect 33 0 51 1;
+#X connect 34 0 52 1;
+#X connect 35 0 53 1;
+#X connect 36 0 54 1;
+#X connect 37 0 55 1;
+#X connect 38 0 14 0;
+#X connect 45 0 15 0;
+#X connect 46 0 16 0;
+#X connect 47 0 17 0;
+#X connect 48 0 18 0;
+#X connect 49 0 19 0;
+#X connect 50 0 20 0;
+#X connect 51 0 21 0;
+#X connect 52 0 22 0;
+#X connect 53 0 23 0;
+#X connect 54 0 24 0;
+#X connect 55 0 25 0;
+#X connect 56 0 26 0;
+#X connect 56 0 27 0;
+#X connect 56 0 28 0;
+#X connect 56 0 29 0;
+#X connect 56 0 37 0;
+#X connect 56 0 36 0;
+#X connect 56 0 35 0;
+#X connect 56 0 34 0;
+#X connect 56 0 33 0;
+#X connect 56 0 32 0;
+#X connect 56 0 31 0;
+#X connect 56 0 30 0;
+#X coords 0 -1 1 1 193 33 2 39 116;
+#X restore 307 193 pd steps;
+#X floatatom 461 158 5 1 5000 0 - - -, f 5;
+#X obj 325 156 tgl 22 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
+#8789eb 0 1;
+#X obj 665 78 hsl 128 15 1 2000 0 0 empty empty empty -2 -8 0 10 #fcfcfc
+#000000 #000000 629 1;
+#X obj 752 16 loadbang;
+#X msg 752 45 100;
+#X obj 752 16 loadbang;
+#X obj 325 81 inlet;
+#X obj 665 38 inlet;
+#X floatatom 392 159 5 1 12 0 - - -, f 5;
+#X obj 391 82 inlet;
+#X obj 367 27 loadbang;
+#X msg 367 56 1;
+#X obj 408 229 cnv 15 53 16 empty empty a-barlow.com -11 6 0 14 #4a4c9e
+#8789eb 0;
+#X text 28 13 Andrew Barlow;
+#X text 28 58 custom sequencer module;
+#X text 28 36 a-barlow.com;
+#X text 628 260 messy \, but it don't not work;
+#X text 608 144 arbitrarily made 12 steps max;
+#X text 609 167 sry to any polyrhythm stans;
+#N canvas 1055 585 542 431 counter 0;
+#X obj 40 96 f;
+#X obj 40 127 + 1;
+#X obj 79 80 metro;
+#X obj 79 109 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
+#X obj 111 127 %;
+#X obj 13 26 inlet;
+#X obj 63 26 inlet;
+#X obj 113 26 inlet;
+#X obj 13 200 outlet;
+#X floatatom 249 98 5 0 0 0 - - -, f 5;
+#X connect 0 0 1 0;
+#X connect 0 0 9 0;
+#X connect 1 0 0 1;
+#X connect 1 0 4 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
+#X connect 4 0 8 0;
+#X connect 5 0 2 0;
+#X connect 6 0 2 1;
+#X connect 7 0 4 1;
+#X coords 0 -1 1 1 115 21 1 172 97;
+#X restore 133 178 pd counter;
+#X text 134 206 using floats;
+#X text 134 230 not acquainted with Pd enough to know when/if overflow
+occursbut idk how much thatbothers me.;
+#X text 133 316 if u work for boeing \, don'tput this in a plane;
+#X connect 16 0 0 0;
+#X connect 16 1 1 0;
+#X connect 16 2 2 0;
+#X connect 16 3 3 0;
+#X connect 16 4 4 0;
+#X connect 16 5 5 0;
+#X connect 16 6 6 0;
+#X connect 16 7 7 0;
+#X connect 16 8 8 0;
+#X connect 16 9 9 0;
+#X connect 16 10 10 0;
+#X connect 16 11 11 0;
+#X connect 17 0 36 1;
+#X connect 18 0 36 0;
+#X connect 19 0 17 0;
+#X connect 20 0 21 0;
+#X connect 21 0 19 0;
+#X connect 23 0 18 0;
+#X connect 24 0 19 0;
+#X connect 25 0 36 2;
+#X connect 26 0 25 0;
+#X connect 27 0 28 0;
+#X connect 28 0 25 0;
+#X connect 36 0 16 0;
+#X coords 0 -1 1 1 195 112 2 306 135;
