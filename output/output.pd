@@ -1,0 +1,81 @@
+#N canvas 346 282 1425 887 12;
+#X obj 185 304 dac~;
+#X obj 190 38 inlet~;
+#X obj 395 59 cnv 15 147 80 empty empty OUTPUT 87 68 0 14 #4a4c9e #eb7e49
+0;
+#X obj 400 84 hsl 128 15 0.01 1 1 0 empty empty Master\ Volume -2 -8
+0 10 #4a4c9e #eb7e49 #8789eb 0 1;
+#X obj 400 116 hradio 15 0 0 2 empty empty dac\ ||\ pass -1 -11 0 10
+#4a4c9e #eb7e49 #8789eb 0;
+#X obj 395 59 cnv 15 27 13 empty empty L~ 4 5 0 10 #4a4c9e #8789eb
+0;
+#X obj 429 59 cnv 15 27 13 empty empty a-barlow.com 4 5 0 10 #4a4c9e
+#8789eb 0;
+#X obj 192 93 *~;
+#X obj 336 305 outlet~;
+#X obj 526 59 cnv 15 15 13 empty empty R~ 4 5 0 10 #4a4c9e #8789eb
+0;
+#X obj 268 38 inlet~;
+#N canvas 1055 585 729 512 outSwitch 1;
+#X obj 133 80 select 0 1;
+#X obj 133 106 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 166 106 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 90 155 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X obj 19 156 *~;
+#X msg 95 127 1;
+#X msg 125 127 0;
+#X obj 191 184 *~;
+#X obj 197 159 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
+#X msg 205 128 1;
+#X msg 174 127 0;
+#X obj 19 31 inlet~;
+#X obj 245 38 inlet;
+#X obj 13 257 outlet~;
+#X obj 196 244 outlet~;
+#X obj 82 29 inlet~;
+#X obj 97 258 outlet~;
+#X obj 19 189 *~;
+#X text 22 1 stereo streams;
+#X text 255 137 still need to do a deep dive on Pd's logic;
+#X text 255 107 a lil messy;
+#X text 251 14 radio button;
+#X connect 0 0 1 0;
+#X connect 0 1 2 0;
+#X connect 1 0 5 0;
+#X connect 1 0 6 0;
+#X connect 2 0 9 0;
+#X connect 2 0 10 0;
+#X connect 3 0 4 1;
+#X connect 3 0 17 1;
+#X connect 4 0 13 0;
+#X connect 5 0 3 0;
+#X connect 6 0 8 0;
+#X connect 7 0 14 0;
+#X connect 8 0 7 0;
+#X connect 9 0 8 0;
+#X connect 10 0 3 0;
+#X connect 11 0 4 0;
+#X connect 12 0 0 0;
+#X connect 15 0 17 0;
+#X connect 17 0 16 0;
+#X restore 258 197 pd outSwitch;
+#X obj 266 99 *~;
+#X text 23 18 Andrew Barlow;
+#X text 25 44 a-barlow.com;
+#X text 26 72 simple module tooutput audio to dac or just pass along
+;
+#X connect 1 0 7 0;
+#X connect 3 0 7 1;
+#X connect 3 0 12 1;
+#X connect 4 0 11 2;
+#X connect 7 0 11 0;
+#X connect 10 0 12 0;
+#X connect 11 0 0 0;
+#X connect 11 1 0 1;
+#X connect 11 2 8 0;
+#X connect 12 0 11 1;
+#X coords 0 -1 1 1 149 82 2 394 58;

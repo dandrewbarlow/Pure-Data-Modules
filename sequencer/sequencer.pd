@@ -1,4 +1,4 @@
-#N canvas 213 293 1920 1005 12;
+#N canvas 1263 439 870 859 12;
 #X obj 629 232 outlet;
 #X obj 639 232 outlet;
 #X obj 649 232 outlet;
@@ -19,7 +19,7 @@
 0;
 #X obj 391 137 cnv 15 43 15 empty empty steps 0 5 0 14 #4a4c9e #8789eb
 0;
-#N canvas 359 369 1611 1067 steps 0;
+#N canvas 359 348 1611 1092 steps 0;
 #X obj 40 117 bng 15 250 50 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
 #8789eb;
 #X obj 56 117 bng 15 250 50 0 empty empty empty 17 7 0 10 #4a4c9e #eb7e49
@@ -178,7 +178,7 @@
 #X obj 391 82 inlet;
 #X obj 367 27 loadbang;
 #X msg 367 56 1;
-#X obj 408 229 cnv 15 53 16 empty empty a-barlow.com -11 6 0 14 #4a4c9e
+#X obj 425 229 cnv 15 53 16 empty empty a-barlow.com -1 6 0 10 #4a4c9e
 #8789eb 0;
 #X text 28 13 Andrew Barlow;
 #X text 28 58 custom sequencer module;
